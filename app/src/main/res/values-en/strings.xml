@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="app_name">PlayGame</string>
+
+    <!-- Login -->
+    <string name="title1">Login</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="iniciar">Start</string>
+    <string name="remember_password">Remember Password</string>
+    <string name="registrar">New user? Register here!</string>
+    <string name="welcome">Welcome</string>
+
+    <!-- Home -->
+    <string name="welcome_home">Welcome Home</string>
+
+    <!-- Menu -->
+    <string name="share">Share</string>
+    <string name="count">count</string>
+    <string name="information">information</string>
+    <string name="configuration">Configuration</string>
+
+    <!-- AlertDialog -->
+    <string name="title_exit_alert">Are you sure you want to leave</string>
+    <string name="message_exit_alert">If you exit the application you will lose all progress:</string>
+    <string name="positive_exit_alert">GO to</string>
+    <string name="negative_exit_alert">Cancel</string>
+    <string name="strong">fuerza</string>
+</resources>

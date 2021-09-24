@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">PlayGame</string>
+    <!-- Login -->
+    <string name="title1">Inicio de Sesión</string>
+    <string name="name">Nombre</string>
+    <string name="password">Contraseña</string>
+    <string name="iniciar">Iniciar</string>
+    <string name="remember_password">Recordar Contraseña</string>
+    <string name="registrar">¿Usuario nuevo? Regitrese Aqui</string>
+    <string name="welcome">Bienvenid@</string>
+
+    <!-- Home -->
+    <string name="welcome_home">Bienvenid@ al Inicio</string>
+
+    <!-- Menu -->
+    <string name="share">compartir</string>
+    <string name="count">Cuenta</string>
+    <string name="information">Informacion</string>
+    <string name="configuration">Configuracion</string>
+
+    <!-- AlertDialog -->
+    <string name="title_exit_alert">¿Esta seguro de querer salir?</string>
+    <string name="message_exit_alert">Si sale de la aplicacíon perderá todo el progreso</string>
+    <string name="negative_exit_alert">Canselar</string>
+    <string name="positive_exit_alert">Salir</string>
+    <string name="strong">fuerza</string>
+</resources>
