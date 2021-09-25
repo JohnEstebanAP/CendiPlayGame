@@ -13,8 +13,7 @@
     <string name="welcome_home">Bienvenid@ al Inicio</string>
 
     <!-- Menu -->
-    <string name="share">compartir</string>
-    <string name="count">Cuenta</string>
+    <string name="search">buscar</string>
     <string name="information">Informacion</string>
     <string name="configuration">Configuracion</string>
 
@@ -24,4 +23,5 @@
     <string name="negative_exit_alert">Canselar</string>
     <string name="positive_exit_alert">Salir</string>
     <string name="strong">fuerza</string>
+
 </resources>

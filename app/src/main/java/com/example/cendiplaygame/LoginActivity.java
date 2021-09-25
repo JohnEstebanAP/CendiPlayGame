@@ -46,6 +46,8 @@ public class LoginActivity extends AppCompatActivity {
             public boolean
         });
         */
+
+
         psw.setOnKeyListener((view, keyCode, keyEvent) ->{
             if(keyCode == keyEvent.KEYCODE_ENTER){
                 validator();
