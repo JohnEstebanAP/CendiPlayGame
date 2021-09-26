@@ -17,14 +17,22 @@
     <string name="welcome_home">Welcome Home</string>
 
     <!-- Menu -->
+    <string name="search">search</string>
     <string name="information">information</string>
     <string name="configuration">Configuration</string>
+    <string name="home">Home</string>
 
     <!-- AlertDialog -->
     <string name="title_exit_alert">Are you sure you want to leave</string>
     <string name="message_exit_alert">If you exit the application you will lose all progress:</string>
     <string name="positive_exit_alert">GO to</string>
     <string name="negative_exit_alert">Cancel</string>
-    <string name="strong">fuerza</string>
-    <string name="search">search</string>
+
+
+    <!-- AlertDialog Exit-->
+    <string name="title_information_alert">App Information</string>
+    <string name="message_information_alert">Version: 1.0 \nThis is the App PlayGame mobile application information.</string>
+    <string name="negative_information_alert">Cancel</string>
+    <string name="positive_information_alert">GO to</string>
+    <string name="title_register">Register</string>
 </resources>

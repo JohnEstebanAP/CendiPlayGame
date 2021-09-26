@@ -17,11 +17,20 @@
     <string name="information">Informacion</string>
     <string name="configuration">Configuracion</string>
 
-    <!-- AlertDialog -->
+    <!-- AlertDialog Exit-->
     <string name="title_exit_alert">¿Esta seguro de querer salir?</string>
     <string name="message_exit_alert">Si sale de la aplicacíon perderá todo el progreso</string>
     <string name="negative_exit_alert">Canselar</string>
     <string name="positive_exit_alert">Salir</string>
-    <string name="strong">fuerza</string>
+
+
+    <!-- AlertDialog Exit-->
+    <string name="title_information_alert">Información App</string>
+    <string name="message_information_alert">Versión: 1.0\nEsta es la información de la aplicación movil de App PlayGame  </string>
+    <string name="negative_information_alert">Canselar</string>
+    <string name="positive_information_alert">Salir</string>
+    <string name="home">inicio</string>
+    <string name="title_register">Registro</string>
+
 
 </resources>

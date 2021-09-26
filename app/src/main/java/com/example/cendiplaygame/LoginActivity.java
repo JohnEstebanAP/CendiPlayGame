@@ -103,7 +103,7 @@ public class LoginActivity extends AppCompatActivity {
             lyUser.setError(null);
             lyPsw.setError(null);
             Toast.makeText(LoginActivity.this, welcome + inputUser, Toast.LENGTH_SHORT).show();
-            intent = new Intent(this, HomeActivity.class);
+            intent = new Intent(this, HomeInicioActivity.class);
             intent.putExtra("user",inputUser);
             startActivity(intent);
         }

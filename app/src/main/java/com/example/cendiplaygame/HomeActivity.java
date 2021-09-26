@@ -60,73 +60,29 @@ public class HomeActivity extends AppCompatActivity {
                 return true;
             case information:
                 pop.start();
-                Toast.makeText(this,"information",Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(this, Information.class));
+                showInformation();
                 return true;
             case configuration:
-                pop.start();
                 Toast.makeText(this,"configutation",Toast.LENGTH_SHORT).show();
-                showInformation();
+                pop.start();
+                startActivity(new Intent(this, ConfigurationActivity.class ));
                 return true;
             default:
                 return false;
         }
-        //return super.onOptionsItemSelected(item);
     }
 
-    /* Menu */
-        /*
-        //toolbar = (MaterialToolbar)findViewById(R.id.topAppBar);
-
-       toolbar.setOnMenuItemClickListener(item -> {
-             Toast.makeText(this,"Share",Toast.LENGTH_SHORT).show();
-             switch (item.getItemId()) {
-                 case R.id.search:
-                     // Navigate to settings screen
-                     return true;
-                 case R.id.more:
-                     // Save profile changes
-                     return true;
-                 default:
-                     return false;
-             }
-         });*/
-       /*   toolbar.setOnMenuItemClickListener();
-        toolbar.setOnMenuItemClickListener(menuItem ->{
-          final int search = R.id.mn_search;
-            final int count = R.id.mn_count;
-            final int information = R.id.mn_information;
-            final int configuration = R.id.mn_configuration;
-            final int a = R.id.favorite;
-            final int b = R.id.search;
-            final int c = R.id.more;*/
-         /* switch(item.getItemId()){
-                case search:
-                    Toast.makeText(this,"Share",Toast.LENGTH_SHORT).show();
-                    return true;
-                case count:
-                    Toast.makeText(this,"Count",Toast.LENGTH_SHORT).show();
-                    startActivity(new Intent(this, count.class));
-                    return true;
-                case information:
-                    Toast.makeText(this,"information",Toast.LENGTH_SHORT).show();
-                    startActivity(new Intent(this, Information.class));
-                    return true;
-                case configuration:
-                    Toast.makeText(this,"configutation",Toast.LENGTH_SHORT).show();
-                    showInformation();
-                return true;
-                default:
-                    return false;
-            }*/
-    // return false;
-    // });
 
     private void showInformation(){
-        new MaterialAlertDialogBuilder(this)
-                .setTitle("Information")
-                .setMessage("Version: 1.0 \n This information App PlayGame")
-                .setPositiveButton("ok", (dialogInterface, i) -> dialogInterface.cancel())
+      final  String title = getString(R.string.title_information_alert);
+      final  String message = getString(R.string.message_information_alert);
+      final  String positive = getString(R.string.positive_information_alert);
+
+
+      new MaterialAlertDialogBuilder(this)
+                .setTitle(title)
+                .setMessage(message)
+                .setPositiveButton(positive, (dialogInterface, i) -> dialogInterface.cancel())
                 .show();
     }
 

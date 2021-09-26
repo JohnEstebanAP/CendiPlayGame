@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CendiPlayGame">
-
+        <activity
+            android:name=".HomeInicioActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ConfigurationActivity"
+            android:exported="true" />
         <activity
             android:name=".SplashScreen"
             android:exported="true"
@@ -20,23 +25,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".RegisterActivity"
             android:exported="true" />
-
-        <activity
-            android:name=".configurationActivity"
-            android:exported="true" />
-
-        <activity
-            android:name=".Information"
-            android:exported="true" />
-
-        <activity
-            android:name=".count"
-            android:exported="true" />
-
         <activity
             android:name=".HomeActivity"
             android:exported="true" />
